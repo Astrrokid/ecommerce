@@ -1,13 +1,13 @@
-import product1 from './src/Assets/img1.png';
-import product2 from './src/Assets/img2.png';
-import product3 from './src/Assets/img3.png';
-import product4 from './src/Assets/img4.png';
-import product5 from './src/Assets/img5.webp';
-import product6 from './src/Assets/img6.webp';
-import product7 from './src/Assets/img7.webp';
-import product8 from './src/Assets/img8.png';
+import product1 from './Assets/img1.png';
+import product2 from './Assets/img2.png';
+import product3 from './Assets/img3.png';
+import product4 from './Assets/img4.png';
+import product5 from './Assets/img5.png';
+import product6 from './Assets/img6.webp';
+import product7 from './Assets/img7.webp';
+import product8 from './Assets/img8.webp';
 
-export const products = [
+export const PRODUCTS = [
     {
         id: 1,
         productName: "IPhone",
