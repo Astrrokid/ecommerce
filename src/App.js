@@ -1,6 +1,8 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {Navbar} from './Components/Navbar';
+import {Shop} from './Pages/shop/shop';
+import {Cart} from './Pages/cart/cart';
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
 
         {/* to define our router you have to put them inside the routes components */}
         <Routes>
-          <Route path='/'/>
-          <Route path='/cart'/>
+          <Route path='/' element={<Shop/>} />
+          <Route path='/cart' element={<Cart/>} />
         </Routes>
       </Router>
     </div>
