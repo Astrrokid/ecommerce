@@ -4,6 +4,7 @@ import {Navbar} from './Components/Navbar';
 import {Shop} from './Pages/shop/shop';
 import {Cart} from './Pages/cart/cart';
 
+
 function App() {
   return (
     <div className="App">
